@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node SMS App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4 mx-auto">
+                <h3 class="text-center mb-4">Node SMS App</h3>
+                <input type="tel" id="number" class="mb-2 form-control" name="number" placeholder="Enter Phone Number...">
+                <input type="text" id="message" class="mb-2 form-control" name="message" placeholder="Enter Text Message...">
+                <input type="button" id="btnSubmit" class="mb-2 btn btn-primary form-control" value="Send Text">
+                <p id="response"></p>
+            </div>
+        </div>
+    </div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
