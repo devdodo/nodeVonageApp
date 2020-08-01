@@ -6,8 +6,8 @@ const Nexmo = require('nexmo');
 const app = express();
 
 const nexmo = new Nexmo({
-    apiKey: 'ab02f5e0',
-    apiSecret: 'XTCCb1Pu2TSZWFv1',
+    apiKey: 'dummykey',
+    apiSecret: 'dummysecrete',
   });
 
 // Set Ejs engine
